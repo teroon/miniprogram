@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/select/select",
+    "pages/canvas/canvas",
+    "pages/upload/upload"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText" : "“咔叽”——传传的专属留念馆",
+    "navigationBarTextStyle" : "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

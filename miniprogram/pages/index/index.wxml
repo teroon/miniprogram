@@ -1,0 +1,23 @@
+
+   <view class="card_wrap">
+      
+      <view class="cards">
+        <image class="card_image" src="https://cucprogram-1302361841.cos.ap-beijing.myqcloud.com/%E5%AE%A3%E4%BC%A0logo%E5%B0%8F%E5%9B%BE.png"></image>
+        <!--view class="card_image"></view-->
+      </view>
+
+      <!-- 底部的跳转选择头像框button -->
+      <view class ="btn">
+        <view class="index_btn" hover-class="hover" id="1" bindtap="upload_img">
+        <!--image class="btn_icon" src="/images/boy.png"> </image-->
+        上传本地图片
+        </view>
+        <view class="index_btn" hover-class="hover" id="1" bindtap="get_user_avatar">
+        <!--image class="btn_icon" src="/images/boy.png"> </image-->
+        获取用户头像
+        </view>
+        <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+      </view>
+
+    </view>
+

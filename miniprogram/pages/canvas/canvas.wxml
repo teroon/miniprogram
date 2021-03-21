@@ -1,0 +1,18 @@
+
+
+<view class="card_wrap">
+      
+      <view class="cards">
+        <canvas-drag id="canvas-drag" graph="{{graph}}" width="750" height="750" enableUndo="{{true}}"></canvas-drag>
+      </view>
+
+      <!-- 底部的跳转选择头像框button -->
+      <view class ="btn">
+          <view class="index_btn" bindtap="onAddImage">选择贴纸</view>
+          <view class="index_btn" bindtap="onExport">导出图片</view>
+          <view class="index_btn" bindtap="onClearCanvas">清空画布</view>
+          <view class="index_btn" bindtap="onUndo">撤销</view>
+      </view>
+
+
+    </view>
